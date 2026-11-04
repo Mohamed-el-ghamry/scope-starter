@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+id_rsa
+id_ed25519
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# node
+node_modules/
+
+# data and tooling output
+data/raw/
+graphify-out/
+.claude/settings.local.json
+
+# private project brief
+docs/PROJECT_CONTEXT.md
